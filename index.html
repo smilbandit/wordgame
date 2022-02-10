@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <style>
+      body { background-color: black; font-family:Arial, Helvetica, sans-serif}
+      .row { display: flex; height: 50px; }
+      #row0 { opacity: 0.1; }
+      #row1 { opacity: 0.5; }
+      #row2 { opacity: 1; }
+      #row3 { opacity: 0.5; }
+      #row4 { opacity: 0.1; }
+
+      .cell { display: flex; color: white; height: 50px; width: 50px; border: 5px solid black; font-size: 30px; align-items: center; justify-content: center; }
+      .box { width: 300px; height: 300px; margin:auto; }
+    </style>
+    <script src="words.js"></script>
+    <script src="main.js"></script>
+
+  </head>
+  <body>
+    <div class="box">
+      <div class="row" id="row0">
+        <div class="cell" id="cell0-0">0</div>
+        <div class="cell" id="cell0-1">5</div>
+        <div class="cell" id="cell0-2">6</div>
+        <div class="cell" id="cell0-3">7</div>
+        <div class="cell" id="cell0-4">8</div>
+        <div class="cell" id="cell0-5">9</div>
+      </div>
+      <div class="row" id="row1">
+        <div class="cell" id="cell1-0">F</div>
+        <div class="cell" id="cell1-1">A</div>
+        <div class="cell" id="cell1-2">B</div>
+        <div class="cell" id="cell1-3">C</div>
+        <div class="cell" id="cell1-4">D</div>
+        <div class="cell" id="cell1-5">E</div>
+      </div>
+      <div class="row" id="row2">
+        <div class="cell" id="cell2-0">L</div>
+        <div class="cell" id="cell2-1">G</div>
+        <div class="cell" id="cell2-2">H</div>
+        <div class="cell" id="cell2-3">I</div>
+        <div class="cell" id="cell2-4">J</div>
+        <div class="cell" id="cell2-5">K</div>
+      </div>
+      <div class="row" id="row3">
+        <div class="cell" id="cell3-0">R</div>
+        <div class="cell" id="cell3-1">M</div>
+        <div class="cell" id="cell3-2">N</div>
+        <div class="cell" id="cell3-3">O</div>
+        <div class="cell" id="cell3-4">P</div>
+        <div class="cell" id="cell3-5">Q</div>
+      </div>
+      <div class="row" id="row4">
+        <div class="cell" id="cell4-0">X</div>
+        <div class="cell" id="cell4-1">S</div>
+        <div class="cell" id="cell4-2">T</div>
+        <div class="cell" id="cell4-3">U</div>
+        <div class="cell" id="cell4-4">V</div>
+        <div class="cell" id="cell4-5">W</div>
+      </div>
+    </div>
+
+
+  <div style="display:none;">
+    <div>debug:</div>
+    <div><textarea id="debug" cols="100" rows="20" ></textarea></div>
+  </div>
+
+  </body>
+</html>
